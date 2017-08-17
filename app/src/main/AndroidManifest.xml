@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.pattadon.androidtransitionanimation">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -17,9 +19,12 @@
             </intent-filter>
         </activity>
         <activity android:name=".firstprogram.FirstProgramActivity" />
-        <activity android:name=".secondprogram.SecondProgramActivity"/>
-        <activity android:name=".firstprogram.FirstProgramSecondPageActivity"/>
-        <activity android:name=".firstprogram.FirstProgramSecondPage2Activity"/>
+        <activity android:name=".firstprogram.FirstProgramSecondPageActivity" />
+        <activity android:name=".firstprogram.FirstProgramSecondPage2Activity" />
+        <activity android:name=".secondprogram.SecondProgramActivity" />
+        <activity android:name=".secondprogram.SecondProgramSecondPageActivity" />
+
+        <activity android:name=".thirdprogram.ThirdActivity"/>
     </application>
 
 </manifest>

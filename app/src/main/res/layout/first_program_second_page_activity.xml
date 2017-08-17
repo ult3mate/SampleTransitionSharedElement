@@ -17,6 +17,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@mipmap/sample1_l" />
+        app:srcCompat="@mipmap/kill_apple" />
 
 </android.support.constraint.ConstraintLayout>

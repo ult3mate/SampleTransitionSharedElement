@@ -20,11 +20,12 @@ import kotlinx.android.synthetic.main.first_program_activity.*
  */
 class FirstProgramActivity : AppCompatActivity() {
 
-    val pair : Pair<View, String>? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.first_program_activity)
+
+        supportActionBar?.title = "Act to Act"
 
         first_program_imageview.setOnClickListener {
             val intent = Intent(this, FirstProgramSecondPageActivity::class.java)
